@@ -1,0 +1,4127 @@
+[
+  {
+    "timestamp": "2026-10-29T08:49:00Z",
+    "total_repos": 550,
+    "active_in_window": 522,
+    "high_velocity": 222,
+    "total_commits": 20215,
+    "video_demos": 11,
+    "live_deployments": 22,
+    "docker_count": 57,
+    "test_count": 261,
+    "track_frontier": 54,
+    "track_world": 496,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.0,
+        "commits_in_window": 67
+      },
+      {
+        "rank": 2,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 7.4,
+        "commits_in_window": 217
+      },
+      {
+        "rank": 3,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 4,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 258
+      },
+      {
+        "rank": 5,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 6.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 6,
+        "full_name": "sushant-me/only-you",
+        "score_total": 6.8,
+        "commits_in_window": 259
+      },
+      {
+        "rank": 7,
+        "full_name": "pablopriefert/gilmend",
+        "score_total": 6.8,
+        "commits_in_window": 64
+      },
+      {
+        "rank": 8,
+        "full_name": "Dextheking1/by-eye",
+        "score_total": 6.7,
+        "commits_in_window": 32
+      },
+      {
+        "rank": 9,
+        "full_name": "Zakariachirah/darflow-agent",
+        "score_total": 6.7,
+        "commits_in_window": 30
+      },
+      {
+        "rank": 10,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 6.5,
+        "commits_in_window": 92
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T14:52:00Z",
+    "total_repos": 550,
+    "active_in_window": 522,
+    "high_velocity": 222,
+    "total_commits": 20215,
+    "video_demos": 11,
+    "live_deployments": 23,
+    "docker_count": 57,
+    "test_count": 261,
+    "track_frontier": 54,
+    "track_world": 496,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.5,
+        "commits_in_window": 217
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.0,
+        "commits_in_window": 67
+      },
+      {
+        "rank": 3,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 4,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 258
+      },
+      {
+        "rank": 5,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 6.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 6,
+        "full_name": "sushant-me/only-you",
+        "score_total": 6.8,
+        "commits_in_window": 259
+      },
+      {
+        "rank": 7,
+        "full_name": "pablopriefert/gilmend",
+        "score_total": 6.8,
+        "commits_in_window": 64
+      },
+      {
+        "rank": 8,
+        "full_name": "Dextheking1/by-eye",
+        "score_total": 6.7,
+        "commits_in_window": 32
+      },
+      {
+        "rank": 9,
+        "full_name": "Zakariachirah/darflow-agent",
+        "score_total": 6.7,
+        "commits_in_window": 30
+      },
+      {
+        "rank": 10,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 6.5,
+        "commits_in_window": 92
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T15:53:17Z",
+    "total_repos": 578,
+    "active_in_window": 548,
+    "high_velocity": 238,
+    "total_commits": 22712,
+    "video_demos": 12,
+    "live_deployments": 25,
+    "docker_count": 59,
+    "test_count": 276,
+    "track_frontier": 55,
+    "track_world": 523,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.5,
+        "commits_in_window": 239
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.0,
+        "commits_in_window": 67
+      },
+      {
+        "rank": 3,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 4,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 269
+      },
+      {
+        "rank": 5,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 6.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 6,
+        "full_name": "sushant-me/only-you",
+        "score_total": 6.8,
+        "commits_in_window": 259
+      },
+      {
+        "rank": 7,
+        "full_name": "pablopriefert/gilmend",
+        "score_total": 6.8,
+        "commits_in_window": 64
+      },
+      {
+        "rank": 8,
+        "full_name": "Dextheking1/by-eye",
+        "score_total": 6.7,
+        "commits_in_window": 33
+      },
+      {
+        "rank": 9,
+        "full_name": "Zakariachirah/darflow-agent",
+        "score_total": 6.7,
+        "commits_in_window": 30
+      },
+      {
+        "rank": 10,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 6.6,
+        "commits_in_window": 54
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T15:57:42Z",
+    "total_repos": 578,
+    "active_in_window": 548,
+    "high_velocity": 238,
+    "total_commits": 22712,
+    "video_demos": 12,
+    "live_deployments": 25,
+    "docker_count": 59,
+    "test_count": 276,
+    "track_frontier": 74,
+    "track_world": 504,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.5,
+        "commits_in_window": 239
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.0,
+        "commits_in_window": 67
+      },
+      {
+        "rank": 3,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 4,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 269
+      },
+      {
+        "rank": 5,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 6.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 6,
+        "full_name": "Raul99Alejandro/coresight",
+        "score_total": 6.8,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 7,
+        "full_name": "pablopriefert/gilmend",
+        "score_total": 6.8,
+        "commits_in_window": 64
+      },
+      {
+        "rank": 8,
+        "full_name": "raahimnawaz/workbench-copilot",
+        "score_total": 6.7,
+        "commits_in_window": 78
+      },
+      {
+        "rank": 9,
+        "full_name": "Dextheking1/by-eye",
+        "score_total": 6.7,
+        "commits_in_window": 33
+      },
+      {
+        "rank": 10,
+        "full_name": "Zakariachirah/darflow-agent",
+        "score_total": 6.7,
+        "commits_in_window": 30
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T16:01:59Z",
+    "total_repos": 578,
+    "active_in_window": 548,
+    "high_velocity": 238,
+    "total_commits": 22712,
+    "video_demos": 12,
+    "live_deployments": 25,
+    "docker_count": 59,
+    "test_count": 276,
+    "track_frontier": 74,
+    "track_world": 504,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.5,
+        "commits_in_window": 239
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.0,
+        "commits_in_window": 67
+      },
+      {
+        "rank": 3,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 4,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 269
+      },
+      {
+        "rank": 5,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 6.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 6,
+        "full_name": "Raul99Alejandro/coresight",
+        "score_total": 6.8,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 7,
+        "full_name": "pablopriefert/gilmend",
+        "score_total": 6.8,
+        "commits_in_window": 64
+      },
+      {
+        "rank": 8,
+        "full_name": "raahimnawaz/workbench-copilot",
+        "score_total": 6.7,
+        "commits_in_window": 78
+      },
+      {
+        "rank": 9,
+        "full_name": "Dextheking1/by-eye",
+        "score_total": 6.7,
+        "commits_in_window": 33
+      },
+      {
+        "rank": 10,
+        "full_name": "Zakariachirah/darflow-agent",
+        "score_total": 6.7,
+        "commits_in_window": 30
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T16:38:41Z",
+    "total_repos": 597,
+    "active_in_window": 568,
+    "high_velocity": 249,
+    "total_commits": 24365,
+    "video_demos": 13,
+    "live_deployments": 28,
+    "docker_count": 62,
+    "test_count": 288,
+    "track_frontier": 85,
+    "track_world": 512,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.5,
+        "commits_in_window": 247
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.5,
+        "commits_in_window": 67
+      },
+      {
+        "rank": 3,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 4,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 269
+      },
+      {
+        "rank": 5,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 6.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 6,
+        "full_name": "Raul99Alejandro/coresight",
+        "score_total": 6.8,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 7,
+        "full_name": "pablopriefert/gilmend",
+        "score_total": 6.8,
+        "commits_in_window": 64
+      },
+      {
+        "rank": 8,
+        "full_name": "raahimnawaz/workbench-copilot",
+        "score_total": 6.7,
+        "commits_in_window": 78
+      },
+      {
+        "rank": 9,
+        "full_name": "Dextheking1/by-eye",
+        "score_total": 6.7,
+        "commits_in_window": 33
+      },
+      {
+        "rank": 10,
+        "full_name": "Zakariachirah/darflow-agent",
+        "score_total": 6.7,
+        "commits_in_window": 30
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T19:11:12Z",
+    "total_repos": 608,
+    "active_in_window": 580,
+    "high_velocity": 258,
+    "total_commits": 25634,
+    "video_demos": 15,
+    "live_deployments": 30,
+    "docker_count": 64,
+    "test_count": 294,
+    "track_frontier": 95,
+    "track_world": 513,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.5,
+        "commits_in_window": 252
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.5,
+        "commits_in_window": 72
+      },
+      {
+        "rank": 3,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 4,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 269
+      },
+      {
+        "rank": 5,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 6.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 6,
+        "full_name": "Raul99Alejandro/coresight",
+        "score_total": 6.8,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 7,
+        "full_name": "pablopriefert/gilmend",
+        "score_total": 6.8,
+        "commits_in_window": 64
+      },
+      {
+        "rank": 8,
+        "full_name": "raahimnawaz/workbench-copilot",
+        "score_total": 6.7,
+        "commits_in_window": 87
+      },
+      {
+        "rank": 9,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 6.7,
+        "commits_in_window": 69
+      },
+      {
+        "rank": 10,
+        "full_name": "Dextheking1/by-eye",
+        "score_total": 6.7,
+        "commits_in_window": 33
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T23:10:10Z",
+    "total_repos": 618,
+    "active_in_window": 591,
+    "high_velocity": 271,
+    "total_commits": 27500,
+    "video_demos": 17,
+    "live_deployments": 78,
+    "docker_count": 66,
+    "test_count": 302,
+    "track_frontier": 104,
+    "track_world": 514,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.5,
+        "commits_in_window": 271
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.5,
+        "commits_in_window": 74
+      },
+      {
+        "rank": 3,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.6,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 4,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.2,
+        "commits_in_window": 121
+      },
+      {
+        "rank": 5,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 6,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 259
+      },
+      {
+        "rank": 7,
+        "full_name": "rockyru/regov",
+        "score_total": 7.1,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 8,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 7.1,
+        "commits_in_window": 65
+      },
+      {
+        "rank": 9,
+        "full_name": "jeejak/proofmuse",
+        "score_total": 7.0,
+        "commits_in_window": 32
+      },
+      {
+        "rank": 10,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 269
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29T23:10:50Z",
+    "total_repos": 618,
+    "active_in_window": 591,
+    "high_velocity": 271,
+    "total_commits": 27497,
+    "video_demos": 17,
+    "live_deployments": 78,
+    "docker_count": 66,
+    "test_count": 301,
+    "track_frontier": 97,
+    "track_world": 521,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.5,
+        "commits_in_window": 271
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.5,
+        "commits_in_window": 74
+      },
+      {
+        "rank": 3,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.2,
+        "commits_in_window": 121
+      },
+      {
+        "rank": 4,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 5,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 259
+      },
+      {
+        "rank": 6,
+        "full_name": "rockyru/regov",
+        "score_total": 7.1,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 7,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.1,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 8,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 7.1,
+        "commits_in_window": 65
+      },
+      {
+        "rank": 9,
+        "full_name": "jeejak/proofmuse",
+        "score_total": 7.0,
+        "commits_in_window": 32
+      },
+      {
+        "rank": 10,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 6.9,
+        "commits_in_window": 269
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T00:00:55Z",
+    "total_repos": 619,
+    "active_in_window": 593,
+    "high_velocity": 272,
+    "total_commits": 27696,
+    "video_demos": 17,
+    "live_deployments": 79,
+    "docker_count": 67,
+    "test_count": 303,
+    "track_frontier": 102,
+    "track_world": 517,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 279
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 74
+      },
+      {
+        "rank": 3,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 126
+      },
+      {
+        "rank": 4,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 5,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 6,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 7,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 259
+      },
+      {
+        "rank": 8,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 7.1,
+        "commits_in_window": 65
+      },
+      {
+        "rank": 9,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 7.1,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 10,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.0,
+        "commits_in_window": 102
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T03:11:28Z",
+    "total_repos": 629,
+    "active_in_window": 604,
+    "high_velocity": 281,
+    "total_commits": 29099,
+    "video_demos": 18,
+    "live_deployments": 88,
+    "docker_count": 70,
+    "test_count": 310,
+    "track_frontier": 111,
+    "track_world": 518,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 332
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 74
+      },
+      {
+        "rank": 3,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 4,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 5,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 6,
+        "full_name": "mdmahadyhasanruju-byte/alive-bangladesh-coordinator-meta-ai",
+        "score_total": 7.2,
+        "commits_in_window": 16
+      },
+      {
+        "rank": 7,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 259
+      },
+      {
+        "rank": 8,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 7.1,
+        "commits_in_window": 65
+      },
+      {
+        "rank": 9,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 7.1,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 10,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.0,
+        "commits_in_window": 102
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T07:10:22Z",
+    "total_repos": 635,
+    "active_in_window": 613,
+    "high_velocity": 284,
+    "total_commits": 30068,
+    "video_demos": 19,
+    "live_deployments": 90,
+    "docker_count": 71,
+    "test_count": 316,
+    "track_frontier": 119,
+    "track_world": 516,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 348
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 4,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 5,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 6,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 259
+      },
+      {
+        "rank": 7,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 7.1,
+        "commits_in_window": 65
+      },
+      {
+        "rank": 8,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 7.1,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 9,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.0,
+        "commits_in_window": 102
+      },
+      {
+        "rank": 10,
+        "full_name": "jeejak/proofmuse",
+        "score_total": 7.0,
+        "commits_in_window": 32
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T10:21:21Z",
+    "total_repos": 719,
+    "active_in_window": 689,
+    "high_velocity": 334,
+    "total_commits": 35256,
+    "video_demos": 26,
+    "live_deployments": 113,
+    "docker_count": 83,
+    "test_count": 358,
+    "track_frontier": 122,
+    "track_world": 592,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 359
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 4,
+        "full_name": "aauthier2385/dealer-social-ai-hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 27
+      },
+      {
+        "rank": 5,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 6,
+        "full_name": "athos-agent/athos",
+        "score_total": 7.3,
+        "commits_in_window": 84
+      },
+      {
+        "rank": 7,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 8,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 267
+      },
+      {
+        "rank": 9,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 7.1,
+        "commits_in_window": 65
+      },
+      {
+        "rank": 10,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 7.1,
+        "commits_in_window": 29
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T11:09:54Z",
+    "total_repos": 721,
+    "active_in_window": 691,
+    "high_velocity": 335,
+    "total_commits": 35446,
+    "video_demos": 26,
+    "live_deployments": 113,
+    "docker_count": 84,
+    "test_count": 359,
+    "track_frontier": 141,
+    "track_world": 575,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 364
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 4,
+        "full_name": "aauthier2385/dealer-social-ai-hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 27
+      },
+      {
+        "rank": 5,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 6,
+        "full_name": "athos-agent/athos",
+        "score_total": 7.3,
+        "commits_in_window": 84
+      },
+      {
+        "rank": 7,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 8,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 267
+      },
+      {
+        "rank": 9,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 7.1,
+        "commits_in_window": 65
+      },
+      {
+        "rank": 10,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 7.1,
+        "commits_in_window": 29
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T11:10:20Z",
+    "total_repos": 645,
+    "active_in_window": 623,
+    "high_velocity": 292,
+    "total_commits": 31303,
+    "video_demos": 19,
+    "live_deployments": 94,
+    "docker_count": 73,
+    "test_count": 323,
+    "track_frontier": 123,
+    "track_world": 522,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 364
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 4,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 5,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 6,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 267
+      },
+      {
+        "rank": 7,
+        "full_name": "creativeheadz/wegweiser-eyewitness",
+        "score_total": 7.1,
+        "commits_in_window": 65
+      },
+      {
+        "rank": 8,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 7.1,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 9,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.0,
+        "commits_in_window": 102
+      },
+      {
+        "rank": 10,
+        "full_name": "jeejak/proofmuse",
+        "score_total": 7.0,
+        "commits_in_window": 32
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T15:11:47Z",
+    "total_repos": 655,
+    "active_in_window": 634,
+    "high_velocity": 300,
+    "total_commits": 33951,
+    "video_demos": 22,
+    "live_deployments": 99,
+    "docker_count": 74,
+    "test_count": 333,
+    "track_frontier": 130,
+    "track_world": 525,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 374
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.5,
+        "commits_in_window": 104
+      },
+      {
+        "rank": 4,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 5,
+        "full_name": "DhabtPlatform/souk-lens-indie",
+        "score_total": 7.4,
+        "commits_in_window": 83
+      },
+      {
+        "rank": 6,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 7,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 8,
+        "full_name": "seekdaseek/iussum-agent",
+        "score_total": 7.2,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 9,
+        "full_name": "Cubiczan/aegis-muse-spark",
+        "score_total": 7.2,
+        "commits_in_window": 8
+      },
+      {
+        "rank": 10,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.1,
+        "commits_in_window": 269
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T19:03:55Z",
+    "total_repos": 655,
+    "active_in_window": 634,
+    "high_velocity": 301,
+    "total_commits": 34351,
+    "video_demos": 23,
+    "live_deployments": 100,
+    "docker_count": 75,
+    "test_count": 334,
+    "track_frontier": 129,
+    "track_world": 526,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 374
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 8.2,
+        "commits_in_window": 419
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.5,
+        "commits_in_window": 104
+      },
+      {
+        "rank": 5,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 6,
+        "full_name": "DhabtPlatform/souk-lens-indie",
+        "score_total": 7.4,
+        "commits_in_window": 83
+      },
+      {
+        "rank": 7,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 8,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 9,
+        "full_name": "seekdaseek/iussum-agent",
+        "score_total": 7.2,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 10,
+        "full_name": "Cubiczan/aegis-muse-spark",
+        "score_total": 7.2,
+        "commits_in_window": 8
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T19:28:23Z",
+    "total_repos": 707,
+    "active_in_window": 707,
+    "high_velocity": 349,
+    "total_commits": 39807,
+    "video_demos": 31,
+    "live_deployments": 118,
+    "docker_count": 83,
+    "test_count": 369,
+    "track_frontier": 147,
+    "track_world": 560,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 374
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 8.2,
+        "commits_in_window": 419
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.5,
+        "commits_in_window": 104
+      },
+      {
+        "rank": 5,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 6,
+        "full_name": "DhabtPlatform/souk-lens-indie",
+        "score_total": 7.4,
+        "commits_in_window": 83
+      },
+      {
+        "rank": 7,
+        "full_name": "aauthier2385/dealer-social-ai-hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 27
+      },
+      {
+        "rank": 8,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      },
+      {
+        "rank": 9,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 7.3,
+        "commits_in_window": 79
+      },
+      {
+        "rank": 10,
+        "full_name": "seekdaseek/iussum-agent",
+        "score_total": 7.2,
+        "commits_in_window": 29
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-31T09:54:26Z",
+    "total_repos": 746,
+    "active_in_window": 746,
+    "high_velocity": 366,
+    "total_commits": 41844,
+    "video_demos": 33,
+    "live_deployments": 127,
+    "docker_count": 87,
+    "test_count": 392,
+    "track_frontier": 151,
+    "track_world": 595,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 374
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "denmarkamanodaya/meta-hackathon-nimbytes",
+        "score_total": 8.2,
+        "commits_in_window": 483
+      },
+      {
+        "rank": 4,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 8.2,
+        "commits_in_window": 419
+      },
+      {
+        "rank": 5,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 7.7,
+        "commits_in_window": 74
+      },
+      {
+        "rank": 6,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.5,
+        "commits_in_window": 104
+      },
+      {
+        "rank": 7,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 8,
+        "full_name": "DhabtPlatform/souk-lens-indie",
+        "score_total": 7.4,
+        "commits_in_window": 83
+      },
+      {
+        "rank": 9,
+        "full_name": "aauthier2385/dealer-social-ai-hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 27
+      },
+      {
+        "rank": 10,
+        "full_name": "rockyru/regov",
+        "score_total": 7.3,
+        "commits_in_window": 130
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-31T14:51:19Z",
+    "total_repos": 758,
+    "active_in_window": 758,
+    "high_velocity": 371,
+    "total_commits": 42239,
+    "video_demos": 35,
+    "live_deployments": 129,
+    "docker_count": 87,
+    "test_count": 402,
+    "track_frontier": 162,
+    "track_world": 596,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 374
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 3,
+        "full_name": "denmarkamanodaya/meta-hackathon-nimbytes",
+        "score_total": 8.2,
+        "commits_in_window": 483
+      },
+      {
+        "rank": 4,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 8.2,
+        "commits_in_window": 419
+      },
+      {
+        "rank": 5,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 7.7,
+        "commits_in_window": 74
+      },
+      {
+        "rank": 6,
+        "full_name": "athos-agent/athos",
+        "score_total": 7.6,
+        "commits_in_window": 124
+      },
+      {
+        "rank": 7,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 7.5,
+        "commits_in_window": 104
+      },
+      {
+        "rank": 8,
+        "full_name": "abelxmendoza/RobotForge-Hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 9,
+        "full_name": "DhabtPlatform/souk-lens-indie",
+        "score_total": 7.4,
+        "commits_in_window": 83
+      },
+      {
+        "rank": 10,
+        "full_name": "aauthier2385/dealer-social-ai-hackathon",
+        "score_total": 7.4,
+        "commits_in_window": 27
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-31T15:06:52Z",
+    "total_repos": 765,
+    "active_in_window": 765,
+    "high_velocity": 414,
+    "total_commits": 49478,
+    "video_demos": 52,
+    "live_deployments": 169,
+    "docker_count": 94,
+    "test_count": 416,
+    "track_frontier": 218,
+    "track_world": 547,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 8.7,
+        "commits_in_window": 406
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 3,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 8.3,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 4,
+        "full_name": "denmarkamanodaya/meta-hackathon-nimbxxxytes",
+        "score_total": 8.2,
+        "commits_in_window": 483
+      },
+      {
+        "rank": 5,
+        "full_name": "denmarkamanodaya/meta-hackathon-nimbytes",
+        "score_total": 8.2,
+        "commits_in_window": 483
+      },
+      {
+        "rank": 6,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 8.2,
+        "commits_in_window": 419
+      },
+      {
+        "rank": 7,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 8.1,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 8,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 7.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 9,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 7.7,
+        "commits_in_window": 74
+      },
+      {
+        "rank": 10,
+        "full_name": "DivDev93/OfficeOfOtherwise-MetaHackathon",
+        "score_total": 7.7,
+        "commits_in_window": 54
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-31T18:26:41Z",
+    "total_repos": 764,
+    "active_in_window": 764,
+    "high_velocity": 413,
+    "total_commits": 49006,
+    "video_demos": 52,
+    "live_deployments": 168,
+    "docker_count": 93,
+    "test_count": 415,
+    "track_frontier": 222,
+    "track_world": 542,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 9.6,
+        "commits_in_window": 417
+      },
+      {
+        "rank": 2,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.7,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 3,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 8.3,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 4,
+        "full_name": "denmarkamanodaya/meta-hackathon-nimbytes",
+        "score_total": 8.2,
+        "commits_in_window": 483
+      },
+      {
+        "rank": 5,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 8.2,
+        "commits_in_window": 419
+      },
+      {
+        "rank": 6,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 8.1,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 7,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 7.9,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 8,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 7.7,
+        "commits_in_window": 74
+      },
+      {
+        "rank": 9,
+        "full_name": "DivDev93/OfficeOfOtherwise-MetaHackathon",
+        "score_total": 7.7,
+        "commits_in_window": 54
+      },
+      {
+        "rank": 10,
+        "full_name": "sushant-me/only-you",
+        "score_total": 7.6,
+        "commits_in_window": 269
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-31T18:45:24Z",
+    "total_repos": 778,
+    "active_in_window": 778,
+    "high_velocity": 423,
+    "total_commits": 51306,
+    "video_demos": 55,
+    "live_deployments": 179,
+    "docker_count": 97,
+    "test_count": 428,
+    "track_frontier": 231,
+    "track_world": 547,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 417
+      },
+      {
+        "rank": 2,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 3,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 4,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.0,
+        "commits_in_window": 419
+      },
+      {
+        "rank": 5,
+        "full_name": "ziffan/LexRAGLab-Meta2026Hackathon",
+        "score_total": 8.7,
+        "commits_in_window": 440
+      },
+      {
+        "rank": 6,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.6,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 7,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 8.4,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 8,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 8.3,
+        "commits_in_window": 82
+      },
+      {
+        "rank": 9,
+        "full_name": "denmarkamanodaya/meta-hackathon-nimbytes",
+        "score_total": 8.2,
+        "commits_in_window": 483
+      },
+      {
+        "rank": 10,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 8.2,
+        "commits_in_window": 289
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-31T19:04:31Z",
+    "total_repos": 778,
+    "active_in_window": 778,
+    "high_velocity": 423,
+    "total_commits": 51348,
+    "video_demos": 55,
+    "live_deployments": 181,
+    "docker_count": 97,
+    "test_count": 429,
+    "track_frontier": 231,
+    "track_world": 547,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 417
+      },
+      {
+        "rank": 2,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 3,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 4,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.0,
+        "commits_in_window": 419
+      },
+      {
+        "rank": 5,
+        "full_name": "ziffan/LexRAGLab-Meta2026Hackathon",
+        "score_total": 8.7,
+        "commits_in_window": 440
+      },
+      {
+        "rank": 6,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.6,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 7,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 8.4,
+        "commits_in_window": 29
+      },
+      {
+        "rank": 8,
+        "full_name": "Unclefole/yebo-muse-agent",
+        "score_total": 8.3,
+        "commits_in_window": 82
+      },
+      {
+        "rank": 9,
+        "full_name": "denmarkamanodaya/meta-hackathon-nimbytes",
+        "score_total": 8.2,
+        "commits_in_window": 483
+      },
+      {
+        "rank": 10,
+        "full_name": "edward321416-maker/fieldless",
+        "score_total": 8.2,
+        "commits_in_window": 289
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-31T23:02:46Z",
+    "total_repos": 791,
+    "active_in_window": 791,
+    "high_velocity": 433,
+    "total_commits": 53782,
+    "video_demos": 61,
+    "live_deployments": 190,
+    "docker_count": 105,
+    "test_count": 438,
+    "track_frontier": 236,
+    "track_world": 555,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 418
+      },
+      {
+        "rank": 2,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.4,
+        "commits_in_window": 431
+      },
+      {
+        "rank": 3,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 4,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 5,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.2,
+        "commits_in_window": 542
+      },
+      {
+        "rank": 6,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.2,
+        "commits_in_window": 108
+      },
+      {
+        "rank": 7,
+        "full_name": "ziffan/LexRAGLab-Meta2026Hackathon",
+        "score_total": 8.7,
+        "commits_in_window": 440
+      },
+      {
+        "rank": 8,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 8.7,
+        "commits_in_window": 97
+      },
+      {
+        "rank": 9,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.6,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 10,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 8.4,
+        "commits_in_window": 29
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-01T03:04:47Z",
+    "total_repos": 800,
+    "active_in_window": 800,
+    "high_velocity": 439,
+    "total_commits": 55973,
+    "video_demos": 60,
+    "live_deployments": 194,
+    "docker_count": 107,
+    "test_count": 444,
+    "track_frontier": 240,
+    "track_world": 560,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 418
+      },
+      {
+        "rank": 2,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.7,
+        "commits_in_window": 110
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.4,
+        "commits_in_window": 431
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 5,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 6,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.2,
+        "commits_in_window": 551
+      },
+      {
+        "rank": 7,
+        "full_name": "ziffan/LexRAGLab-Meta2026Hackathon",
+        "score_total": 8.7,
+        "commits_in_window": 440
+      },
+      {
+        "rank": 8,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 8.7,
+        "commits_in_window": 97
+      },
+      {
+        "rank": 9,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.6,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 10,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 8.4,
+        "commits_in_window": 29
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-01T07:05:41Z",
+    "total_repos": 809,
+    "active_in_window": 809,
+    "high_velocity": 444,
+    "total_commits": 57060,
+    "video_demos": 62,
+    "live_deployments": 199,
+    "docker_count": 113,
+    "test_count": 451,
+    "track_frontier": 245,
+    "track_world": 564,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 418
+      },
+      {
+        "rank": 2,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.7,
+        "commits_in_window": 111
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.4,
+        "commits_in_window": 431
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 5,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 6,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.2,
+        "commits_in_window": 555
+      },
+      {
+        "rank": 7,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 98
+      },
+      {
+        "rank": 8,
+        "full_name": "ziffan/LexRAGLab-Meta2026Hackathon",
+        "score_total": 8.7,
+        "commits_in_window": 440
+      },
+      {
+        "rank": 9,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.6,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 10,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 8.4,
+        "commits_in_window": 29
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-01T07:45:57Z",
+    "total_repos": 818,
+    "active_in_window": 818,
+    "high_velocity": 447,
+    "total_commits": 57552,
+    "video_demos": 69,
+    "live_deployments": 201,
+    "docker_count": 113,
+    "test_count": 454,
+    "track_frontier": 243,
+    "track_world": 575,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 418
+      },
+      {
+        "rank": 2,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.7,
+        "commits_in_window": 111
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.4,
+        "commits_in_window": 431
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 5,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 6,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 98
+      },
+      {
+        "rank": 7,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.0,
+        "commits_in_window": 559
+      },
+      {
+        "rank": 8,
+        "full_name": "ziffan/LexRAGLab-Meta2026Hackathon",
+        "score_total": 8.7,
+        "commits_in_window": 440
+      },
+      {
+        "rank": 9,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.6,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 10,
+        "full_name": "ConWan30/qortime-ai",
+        "score_total": 8.4,
+        "commits_in_window": 29
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-01T11:02:52Z",
+    "total_repos": 825,
+    "active_in_window": 825,
+    "high_velocity": 457,
+    "total_commits": 58274,
+    "video_demos": 76,
+    "live_deployments": 207,
+    "docker_count": 119,
+    "test_count": 460,
+    "track_frontier": 246,
+    "track_world": 579,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 9.9,
+        "commits_in_window": 26
+      },
+      {
+        "rank": 2,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.7,
+        "commits_in_window": 111
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.4,
+        "commits_in_window": 431
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 5,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 6,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 98
+      },
+      {
+        "rank": 7,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.0,
+        "commits_in_window": 591
+      },
+      {
+        "rank": 8,
+        "full_name": "thecodekaizen/veil",
+        "score_total": 8.8,
+        "commits_in_window": 203
+      },
+      {
+        "rank": 9,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.6,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 10,
+        "full_name": "ziffan/LexRAGLab-Meta2026Hackathon",
+        "score_total": 8.4,
+        "commits_in_window": 449
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-01T13:24:35Z",
+    "total_repos": 830,
+    "active_in_window": 830,
+    "high_velocity": 466,
+    "total_commits": 59791,
+    "video_demos": 84,
+    "live_deployments": 214,
+    "docker_count": 121,
+    "test_count": 464,
+    "track_frontier": 250,
+    "track_world": 580,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 428
+      },
+      {
+        "rank": 2,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.7,
+        "commits_in_window": 111
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.4,
+        "commits_in_window": 431
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 5,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 57
+      },
+      {
+        "rank": 6,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 98
+      },
+      {
+        "rank": 7,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.0,
+        "commits_in_window": 591
+      },
+      {
+        "rank": 8,
+        "full_name": "thecodekaizen/veil",
+        "score_total": 8.8,
+        "commits_in_window": 203
+      },
+      {
+        "rank": 9,
+        "full_name": "tamzid2001/frontiersight-ai",
+        "score_total": 8.6,
+        "commits_in_window": 92
+      },
+      {
+        "rank": 10,
+        "full_name": "ziffan/LexRAGLab-Meta2026Hackathon",
+        "score_total": 8.4,
+        "commits_in_window": 449
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-01T21:16:33Z",
+    "total_repos": 861,
+    "active_in_window": 861,
+    "high_velocity": 492,
+    "total_commits": 63919,
+    "video_demos": 94,
+    "live_deployments": 229,
+    "docker_count": 126,
+    "test_count": 487,
+    "track_frontier": 261,
+    "track_world": 600,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 431
+      },
+      {
+        "rank": 2,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 551
+      },
+      {
+        "rank": 3,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.7,
+        "commits_in_window": 111
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 5,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 6,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 100
+      },
+      {
+        "rank": 7,
+        "full_name": "quanticsoul4772/glint",
+        "score_total": 9.1,
+        "commits_in_window": 457
+      },
+      {
+        "rank": 8,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.0,
+        "commits_in_window": 591
+      },
+      {
+        "rank": 9,
+        "full_name": "thecodekaizen/veil",
+        "score_total": 8.8,
+        "commits_in_window": 203
+      },
+      {
+        "rank": 10,
+        "full_name": "samoxis/blinkflow",
+        "score_total": 8.8,
+        "commits_in_window": 147
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-02T13:01:23Z",
+    "total_repos": 909,
+    "active_in_window": 909,
+    "high_velocity": 531,
+    "total_commits": 71968,
+    "video_demos": 109,
+    "live_deployments": 264,
+    "docker_count": 142,
+    "test_count": 516,
+    "track_frontier": 273,
+    "track_world": 636,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 438
+      },
+      {
+        "rank": 2,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 556
+      },
+      {
+        "rank": 3,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 372
+      },
+      {
+        "rank": 5,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 6,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      },
+      {
+        "rank": 7,
+        "full_name": "quanticsoul4772/glint",
+        "score_total": 9.1,
+        "commits_in_window": 457
+      },
+      {
+        "rank": 8,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.0,
+        "commits_in_window": 629
+      },
+      {
+        "rank": 9,
+        "full_name": "athos-agent/athos",
+        "score_total": 9.0,
+        "commits_in_window": 236
+      },
+      {
+        "rank": 10,
+        "full_name": "samoxis/blinkflow",
+        "score_total": 8.8,
+        "commits_in_window": 153
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-02T19:04:43Z",
+    "total_repos": 955,
+    "active_in_window": 955,
+    "high_velocity": 564,
+    "total_commits": 78687,
+    "video_demos": 132,
+    "live_deployments": 295,
+    "docker_count": 159,
+    "test_count": 549,
+    "track_frontier": 291,
+    "track_world": 664,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 442
+      },
+      {
+        "rank": 2,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 556
+      },
+      {
+        "rank": 3,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 391
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 5,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 55
+      },
+      {
+        "rank": 6,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 7,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.2,
+        "commits_in_window": 641
+      },
+      {
+        "rank": 8,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      },
+      {
+        "rank": 9,
+        "full_name": "athos-agent/athos",
+        "score_total": 9.0,
+        "commits_in_window": 236
+      },
+      {
+        "rank": 10,
+        "full_name": "jai-rathore/agentboard",
+        "score_total": 8.9,
+        "commits_in_window": 156
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-02T23:03:24Z",
+    "total_repos": 969,
+    "active_in_window": 969,
+    "high_velocity": 575,
+    "total_commits": 81276,
+    "video_demos": 140,
+    "live_deployments": 310,
+    "docker_count": 165,
+    "test_count": 559,
+    "track_frontier": 294,
+    "track_world": 675,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 445
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 661
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 581
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 5,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 6,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 423
+      },
+      {
+        "rank": 7,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 8,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.2,
+        "commits_in_window": 641
+      },
+      {
+        "rank": 9,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      },
+      {
+        "rank": 10,
+        "full_name": "athos-agent/athos",
+        "score_total": 9.0,
+        "commits_in_window": 236
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T03:04:24Z",
+    "total_repos": 987,
+    "active_in_window": 987,
+    "high_velocity": 591,
+    "total_commits": 83676,
+    "video_demos": 147,
+    "live_deployments": 321,
+    "docker_count": 167,
+    "test_count": 568,
+    "track_frontier": 299,
+    "track_world": 688,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 445
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 671
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 5,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 6,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 438
+      },
+      {
+        "rank": 7,
+        "full_name": "StefanRohringer/muse-qc-cell",
+        "score_total": 9.3,
+        "commits_in_window": 174
+      },
+      {
+        "rank": 8,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 9,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.2,
+        "commits_in_window": 648
+      },
+      {
+        "rank": 10,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T07:05:36Z",
+    "total_repos": 1013,
+    "active_in_window": 1013,
+    "high_velocity": 603,
+    "total_commits": 86506,
+    "video_demos": 159,
+    "live_deployments": 331,
+    "docker_count": 173,
+    "test_count": 583,
+    "track_frontier": 306,
+    "track_world": 707,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 446
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 675
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 5,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 6,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 438
+      },
+      {
+        "rank": 7,
+        "full_name": "StefanRohringer/muse-qc-cell",
+        "score_total": 9.3,
+        "commits_in_window": 174
+      },
+      {
+        "rank": 8,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 9,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.2,
+        "commits_in_window": 648
+      },
+      {
+        "rank": 10,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T07:34:09Z",
+    "total_repos": 1024,
+    "active_in_window": 1024,
+    "high_velocity": 613,
+    "total_commits": 87219,
+    "video_demos": 165,
+    "live_deployments": 337,
+    "docker_count": 174,
+    "test_count": 594,
+    "track_frontier": 313,
+    "track_world": 711,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 446
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 675
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 5,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 6,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 438
+      },
+      {
+        "rank": 7,
+        "full_name": "StefanRohringer/muse-qc-cell",
+        "score_total": 9.3,
+        "commits_in_window": 174
+      },
+      {
+        "rank": 8,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 9,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      },
+      {
+        "rank": 10,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.1,
+        "commits_in_window": 648
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T11:05:49Z",
+    "total_repos": 1049,
+    "active_in_window": 1049,
+    "high_velocity": 630,
+    "total_commits": 90483,
+    "video_demos": 177,
+    "live_deployments": 350,
+    "docker_count": 184,
+    "test_count": 612,
+    "track_frontier": 311,
+    "track_world": 738,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 449
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 675
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 5,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 6,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 444
+      },
+      {
+        "rank": 7,
+        "full_name": "StefanRohringer/muse-qc-cell",
+        "score_total": 9.3,
+        "commits_in_window": 174
+      },
+      {
+        "rank": 8,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 9,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      },
+      {
+        "rank": 10,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.1,
+        "commits_in_window": 658
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T13:05:23Z",
+    "total_repos": 1063,
+    "active_in_window": 1063,
+    "high_velocity": 638,
+    "total_commits": 92136,
+    "video_demos": 181,
+    "live_deployments": 356,
+    "docker_count": 187,
+    "test_count": 623,
+    "track_frontier": 319,
+    "track_world": 744,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 680
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 5,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 6,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 446
+      },
+      {
+        "rank": 7,
+        "full_name": "StefanRohringer/muse-qc-cell",
+        "score_total": 9.3,
+        "commits_in_window": 174
+      },
+      {
+        "rank": 8,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 9,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      },
+      {
+        "rank": 10,
+        "full_name": "halo-sw/ithaca",
+        "score_total": 9.1,
+        "commits_in_window": 664
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T15:07:28Z",
+    "total_repos": 1078,
+    "active_in_window": 1078,
+    "high_velocity": 647,
+    "total_commits": 93457,
+    "video_demos": 188,
+    "live_deployments": 368,
+    "docker_count": 194,
+    "test_count": 634,
+    "track_frontier": 326,
+    "track_world": 752,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 682
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 5,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 6,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.4,
+        "commits_in_window": 446
+      },
+      {
+        "rank": 7,
+        "full_name": "Skywalkers-24/LoadTruth",
+        "score_total": 9.4,
+        "commits_in_window": 53
+      },
+      {
+        "rank": 8,
+        "full_name": "StefanRohringer/muse-qc-cell",
+        "score_total": 9.3,
+        "commits_in_window": 174
+      },
+      {
+        "rank": 9,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 10,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T16:30:06Z",
+    "total_repos": 1090,
+    "active_in_window": 1090,
+    "high_velocity": 653,
+    "total_commits": 94616,
+    "video_demos": 194,
+    "live_deployments": 372,
+    "docker_count": 195,
+    "test_count": 641,
+    "track_frontier": 328,
+    "track_world": 762,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 686
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 449
+      },
+      {
+        "rank": 5,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 6,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 7,
+        "full_name": "Skywalkers-24/LoadTruth",
+        "score_total": 9.4,
+        "commits_in_window": 55
+      },
+      {
+        "rank": 8,
+        "full_name": "StefanRohringer/muse-qc-cell",
+        "score_total": 9.3,
+        "commits_in_window": 174
+      },
+      {
+        "rank": 9,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 10,
+        "full_name": "0xNoramiya/ventriloquist",
+        "score_total": 9.2,
+        "commits_in_window": 113
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T18:14:42Z",
+    "total_repos": 1106,
+    "active_in_window": 1106,
+    "high_velocity": 662,
+    "total_commits": 95934,
+    "video_demos": 204,
+    "live_deployments": 382,
+    "docker_count": 198,
+    "test_count": 651,
+    "track_frontier": 333,
+    "track_world": 773,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 688
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 449
+      },
+      {
+        "rank": 5,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 6,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 7,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 9.5,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 8,
+        "full_name": "Skywalkers-24/LoadTruth",
+        "score_total": 9.4,
+        "commits_in_window": 55
+      },
+      {
+        "rank": 9,
+        "full_name": "StefanRohringer/muse-qc-cell",
+        "score_total": 9.3,
+        "commits_in_window": 174
+      },
+      {
+        "rank": 10,
+        "full_name": "matrixagentsocial/matrix-globe",
+        "score_total": 9.3,
+        "commits_in_window": 62
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T19:07:20Z",
+    "total_repos": 1114,
+    "active_in_window": 1114,
+    "high_velocity": 666,
+    "total_commits": 97305,
+    "video_demos": 208,
+    "live_deployments": 387,
+    "docker_count": 199,
+    "test_count": 657,
+    "track_frontier": 336,
+    "track_world": 778,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 690
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 4,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 451
+      },
+      {
+        "rank": 5,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 6,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 7,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 9.5,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 8,
+        "full_name": "prohle/schedulegod-ai",
+        "score_total": 9.4,
+        "commits_in_window": 168
+      },
+      {
+        "rank": 9,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 9.4,
+        "commits_in_window": 168
+      },
+      {
+        "rank": 10,
+        "full_name": "Skywalkers-24/LoadTruth",
+        "score_total": 9.4,
+        "commits_in_window": 53
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T19:31:17Z",
+    "total_repos": 1120,
+    "active_in_window": 1120,
+    "high_velocity": 672,
+    "total_commits": 98158,
+    "video_demos": 216,
+    "live_deployments": 390,
+    "docker_count": 203,
+    "test_count": 664,
+    "track_frontier": 338,
+    "track_world": 782,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 9.9,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 3,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 692
+      },
+      {
+        "rank": 4,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 453
+      },
+      {
+        "rank": 6,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 7,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 8,
+        "full_name": "prohle/schedulegod-ai",
+        "score_total": 9.4,
+        "commits_in_window": 169
+      },
+      {
+        "rank": 9,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 9.4,
+        "commits_in_window": 169
+      },
+      {
+        "rank": 10,
+        "full_name": "Skywalkers-24/LoadTruth",
+        "score_total": 9.4,
+        "commits_in_window": 53
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T20:07:47Z",
+    "total_repos": 1937,
+    "active_in_window": 1937,
+    "high_velocity": 1180,
+    "total_commits": 167338,
+    "video_demos": 306,
+    "live_deployments": 662,
+    "docker_count": 363,
+    "test_count": 1166,
+    "track_frontier": 636,
+    "track_world": 1301,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 9.9,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 3,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 692
+      },
+      {
+        "rank": 4,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 453
+      },
+      {
+        "rank": 6,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 7,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 8,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 9.4,
+        "commits_in_window": 169
+      },
+      {
+        "rank": 9,
+        "full_name": "Skywalkers-24/LoadTruth",
+        "score_total": 9.4,
+        "commits_in_window": 53
+      },
+      {
+        "rank": 10,
+        "full_name": "SungHyunC/video2urdf",
+        "score_total": 9.3,
+        "commits_in_window": 379
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-03T23:09:35Z",
+    "total_repos": 2184,
+    "active_in_window": 2184,
+    "high_velocity": 1335,
+    "total_commits": 191897,
+    "video_demos": 340,
+    "live_deployments": 742,
+    "docker_count": 411,
+    "test_count": 1313,
+    "track_frontier": 723,
+    "track_world": 1461,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 9.9,
+        "commits_in_window": 62
+      },
+      {
+        "rank": 3,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 692
+      },
+      {
+        "rank": 4,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 669
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 456
+      },
+      {
+        "rank": 6,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.8,
+        "commits_in_window": 112
+      },
+      {
+        "rank": 7,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 9.7,
+        "commits_in_window": 61
+      },
+      {
+        "rank": 8,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 9,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 9.4,
+        "commits_in_window": 169
+      },
+      {
+        "rank": 10,
+        "full_name": "Skywalkers-24/LoadTruth",
+        "score_total": 9.4,
+        "commits_in_window": 53
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T03:10:21Z",
+    "total_repos": 2397,
+    "active_in_window": 2397,
+    "high_velocity": 1476,
+    "total_commits": 215475,
+    "video_demos": 400,
+    "live_deployments": 829,
+    "docker_count": 463,
+    "test_count": 1450,
+    "track_frontier": 772,
+    "track_world": 1625,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 113
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 707
+      },
+      {
+        "rank": 4,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 692
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 456
+      },
+      {
+        "rank": 6,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 9.8,
+        "commits_in_window": 73
+      },
+      {
+        "rank": 7,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 9.8,
+        "commits_in_window": 72
+      },
+      {
+        "rank": 8,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 9,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 9.4,
+        "commits_in_window": 169
+      },
+      {
+        "rank": 10,
+        "full_name": "Skywalkers-24/LoadTruth",
+        "score_total": 9.4,
+        "commits_in_window": 53
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T07:12:05Z",
+    "total_repos": 2634,
+    "active_in_window": 2634,
+    "high_velocity": 1606,
+    "total_commits": 233400,
+    "video_demos": 461,
+    "live_deployments": 922,
+    "docker_count": 521,
+    "test_count": 1601,
+    "track_frontier": 856,
+    "track_world": 1778,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 450
+      },
+      {
+        "rank": 2,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 114
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 1057
+      },
+      {
+        "rank": 4,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 715
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 456
+      },
+      {
+        "rank": 6,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 9.8,
+        "commits_in_window": 76
+      },
+      {
+        "rank": 7,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 9.8,
+        "commits_in_window": 72
+      },
+      {
+        "rank": 8,
+        "full_name": "TCPCore/keel",
+        "score_total": 9.7,
+        "commits_in_window": 176
+      },
+      {
+        "rank": 9,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 10,
+        "full_name": "prohle/schedulesolve-ai",
+        "score_total": 9.4,
+        "commits_in_window": 178
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T11:13:30Z",
+    "total_repos": 2826,
+    "active_in_window": 2826,
+    "high_velocity": 1717,
+    "total_commits": 248222,
+    "video_demos": 546,
+    "live_deployments": 988,
+    "docker_count": 570,
+    "test_count": 1710,
+    "track_frontier": 935,
+    "track_world": 1891,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 451
+      },
+      {
+        "rank": 2,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 114
+      },
+      {
+        "rank": 3,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 1100
+      },
+      {
+        "rank": 4,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 721
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 456
+      },
+      {
+        "rank": 6,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 9.8,
+        "commits_in_window": 76
+      },
+      {
+        "rank": 7,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 9.8,
+        "commits_in_window": 72
+      },
+      {
+        "rank": 8,
+        "full_name": "TCPCore/keel",
+        "score_total": 9.7,
+        "commits_in_window": 176
+      },
+      {
+        "rank": 9,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      },
+      {
+        "rank": 10,
+        "full_name": "zoukmar/burotu",
+        "score_total": 9.5,
+        "commits_in_window": 88
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T15:11:46Z",
+    "total_repos": 3033,
+    "active_in_window": 3033,
+    "high_velocity": 1832,
+    "total_commits": 264485,
+    "video_demos": 631,
+    "live_deployments": 1068,
+    "docker_count": 617,
+    "test_count": 1826,
+    "track_frontier": 1007,
+    "track_world": 2026,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 455
+      },
+      {
+        "rank": 2,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 10.0,
+        "commits_in_window": 78
+      },
+      {
+        "rank": 3,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 114
+      },
+      {
+        "rank": 4,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 728
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 456
+      },
+      {
+        "rank": 6,
+        "full_name": "wellytg/meta-hackathon-shadowfenced",
+        "score_total": 9.8,
+        "commits_in_window": 146
+      },
+      {
+        "rank": 7,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 9.8,
+        "commits_in_window": 72
+      },
+      {
+        "rank": 8,
+        "full_name": "TCPCore/keel",
+        "score_total": 9.7,
+        "commits_in_window": 176
+      },
+      {
+        "rank": 9,
+        "full_name": "scoobydoobydrew/cellproof",
+        "score_total": 9.7,
+        "commits_in_window": 124
+      },
+      {
+        "rank": 10,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T19:13:33Z",
+    "total_repos": 3309,
+    "active_in_window": 3309,
+    "high_velocity": 1996,
+    "total_commits": 291741,
+    "video_demos": 746,
+    "live_deployments": 1191,
+    "docker_count": 667,
+    "test_count": 2007,
+    "track_frontier": 1109,
+    "track_world": 2200,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 455
+      },
+      {
+        "rank": 2,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 10.0,
+        "commits_in_window": 78
+      },
+      {
+        "rank": 3,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 114
+      },
+      {
+        "rank": 4,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 734
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 456
+      },
+      {
+        "rank": 6,
+        "full_name": "wellytg/meta-hackathon-shadowfenced",
+        "score_total": 9.8,
+        "commits_in_window": 150
+      },
+      {
+        "rank": 7,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 9.8,
+        "commits_in_window": 72
+      },
+      {
+        "rank": 8,
+        "full_name": "TCPCore/keel",
+        "score_total": 9.7,
+        "commits_in_window": 176
+      },
+      {
+        "rank": 9,
+        "full_name": "scoobydoobydrew/cellproof",
+        "score_total": 9.7,
+        "commits_in_window": 125
+      },
+      {
+        "rank": 10,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T21:03:27Z",
+    "total_repos": 3498,
+    "active_in_window": 3498,
+    "high_velocity": 2090,
+    "total_commits": 305612,
+    "video_demos": 848,
+    "live_deployments": 1267,
+    "docker_count": 708,
+    "test_count": 2127,
+    "track_frontier": 1176,
+    "track_world": 2322,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 455
+      },
+      {
+        "rank": 2,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 10.0,
+        "commits_in_window": 78
+      },
+      {
+        "rank": 3,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 114
+      },
+      {
+        "rank": 4,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 737
+      },
+      {
+        "rank": 5,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 458
+      },
+      {
+        "rank": 6,
+        "full_name": "wellytg/meta-hackathon-shadowfenced",
+        "score_total": 9.8,
+        "commits_in_window": 161
+      },
+      {
+        "rank": 7,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 9.8,
+        "commits_in_window": 72
+      },
+      {
+        "rank": 8,
+        "full_name": "TCPCore/keel",
+        "score_total": 9.7,
+        "commits_in_window": 176
+      },
+      {
+        "rank": 9,
+        "full_name": "scoobydoobydrew/cellproof",
+        "score_total": 9.7,
+        "commits_in_window": 128
+      },
+      {
+        "rank": 10,
+        "full_name": "TsilavinaZh/RecupBuild",
+        "score_total": 9.6,
+        "commits_in_window": 60
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04T23:12:01Z",
+    "total_repos": 3737,
+    "active_in_window": 3737,
+    "high_velocity": 2218,
+    "total_commits": 326587,
+    "video_demos": 989,
+    "live_deployments": 1363,
+    "docker_count": 748,
+    "test_count": 2266,
+    "track_frontier": 1257,
+    "track_world": 2480,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 455
+      },
+      {
+        "rank": 2,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 10.0,
+        "commits_in_window": 78
+      },
+      {
+        "rank": 3,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 114
+      },
+      {
+        "rank": 4,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 1354
+      },
+      {
+        "rank": 5,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 738
+      },
+      {
+        "rank": 6,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 458
+      },
+      {
+        "rank": 7,
+        "full_name": "wellytg/meta-hackathon-shadowfenced",
+        "score_total": 9.8,
+        "commits_in_window": 170
+      },
+      {
+        "rank": 8,
+        "full_name": "ta-amps/teleionlabs-teleion-fabric",
+        "score_total": 9.8,
+        "commits_in_window": 138
+      },
+      {
+        "rank": 9,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 9.8,
+        "commits_in_window": 107
+      },
+      {
+        "rank": 10,
+        "full_name": "TCPCore/keel",
+        "score_total": 9.7,
+        "commits_in_window": 176
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-05T03:14:54Z",
+    "total_repos": 4174,
+    "active_in_window": 4174,
+    "high_velocity": 2458,
+    "total_commits": 369991,
+    "video_demos": 1225,
+    "live_deployments": 1531,
+    "docker_count": 835,
+    "test_count": 2522,
+    "track_frontier": 1402,
+    "track_world": 2772,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 455
+      },
+      {
+        "rank": 2,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 10.0,
+        "commits_in_window": 119
+      },
+      {
+        "rank": 3,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 10.0,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 114
+      },
+      {
+        "rank": 5,
+        "full_name": "dawarepranav/VeriCell",
+        "score_total": 9.9,
+        "commits_in_window": 53
+      },
+      {
+        "rank": 6,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 1375
+      },
+      {
+        "rank": 7,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 740
+      },
+      {
+        "rank": 8,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 458
+      },
+      {
+        "rank": 9,
+        "full_name": "wellytg/meta-hackathon-shadowfenced",
+        "score_total": 9.8,
+        "commits_in_window": 175
+      },
+      {
+        "rank": 10,
+        "full_name": "ta-amps/teleionlabs-teleion-fabric",
+        "score_total": 9.8,
+        "commits_in_window": 147
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-05T07:11:55Z",
+    "total_repos": 4243,
+    "active_in_window": 4243,
+    "high_velocity": 2493,
+    "total_commits": 373802,
+    "video_demos": 1247,
+    "live_deployments": 1554,
+    "docker_count": 846,
+    "test_count": 2552,
+    "track_frontier": 1433,
+    "track_world": 2810,
+    "top10": [
+      {
+        "rank": 1,
+        "full_name": "watt-mind/pii-guard",
+        "score_total": 10.0,
+        "commits_in_window": 455
+      },
+      {
+        "rank": 2,
+        "full_name": "Ataraxiainc2/ISSAAS",
+        "score_total": 10.0,
+        "commits_in_window": 119
+      },
+      {
+        "rank": 3,
+        "full_name": "Beluggin/multimodal-teleoperation",
+        "score_total": 10.0,
+        "commits_in_window": 80
+      },
+      {
+        "rank": 4,
+        "full_name": "alsopgroup/lanemint-meta-hackathon",
+        "score_total": 9.9,
+        "commits_in_window": 114
+      },
+      {
+        "rank": 5,
+        "full_name": "dawarepranav/VeriCell",
+        "score_total": 9.9,
+        "commits_in_window": 53
+      },
+      {
+        "rank": 6,
+        "full_name": "ta-amps/agora-public-overview-architecture-setup-and-contribution",
+        "score_total": 9.8,
+        "commits_in_window": 1375
+      },
+      {
+        "rank": 7,
+        "full_name": "Nivetha200111/Diocle",
+        "score_total": 9.8,
+        "commits_in_window": 740
+      },
+      {
+        "rank": 8,
+        "full_name": "QuintinBotes/stint",
+        "score_total": 9.8,
+        "commits_in_window": 458
+      },
+      {
+        "rank": 9,
+        "full_name": "wellytg/meta-hackathon-shadowfenced",
+        "score_total": 9.8,
+        "commits_in_window": 175
+      },
+      {
+        "rank": 10,
+        "full_name": "ta-amps/teleionlabs-teleion-fabric",
+        "score_total": 9.8,
+        "commits_in_window": 147
+      }
+    ]
+  }
+]
