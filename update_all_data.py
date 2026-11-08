@@ -535,7 +535,11 @@ with ThreadPoolExecutor(max_workers=5) as pool:
             )
 
             repo_pkg_prefix = full_name.split('/')[-1].split('-')[0].lower()
-            has_tests = any('test' in e.lower() or 'spec' in e.lower() for e in tree_entries)
+            prev_raw = raw_audit_data.get(full_name, {})
+            has_tests = bool(
+                prev_raw.get('has_tests')
+                or any('test' in e.lower() or 'spec' in e.lower() or e.lower() in ('e2e', 'conftest.py', 'pytest.ini', 'tox.ini') for e in tree_entries)
+            )
             has_src = any(e.lower() in ['src', 'app', 'backend', 'frontend', 'server', 'lib', 'packages', 'services', 'core', 'site', 'packs', 'scripts', repo_pkg_prefix] for e in tree_entries)
             has_ci = '.github' in tree_entries
 

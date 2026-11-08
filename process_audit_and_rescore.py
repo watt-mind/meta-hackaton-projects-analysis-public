@@ -279,6 +279,7 @@ def rescore_all():
         baseten_in_deps = audit.get('baseten_in_deps', False)
         fireworks_in_deps = audit.get('fireworks_in_deps', False)
         together_in_deps = audit.get('together_in_deps', False)
+        modal_in_deps = audit.get('modal_in_deps', False)
         open_weights_tuning = audit.get('open_weights_tuning_in_deps', False)
         competitor_in_deps = audit.get('competitor_in_deps', False)
         agent_framework = audit.get('agent_framework_in_deps', False)
@@ -325,7 +326,13 @@ def rescore_all():
 
         readme_lower = (audit.get('readme_excerpt') or '').lower()
         desc_lower = (base_p.get('description') or '').lower()
-        combined_text_lower = f"{readme_lower} {desc_lower}"
+        live_lower = ' '.join(live_urls).lower()
+        highlights_lower = ' '.join(base_p.get('tech_highlights') or []).lower()
+        combined_text_lower = f"{readme_lower} {desc_lower} {live_lower} {highlights_lower}"
+        baseten_in_deps = bool(baseten_in_deps or 'baseten' in combined_text_lower)
+        fireworks_in_deps = bool(fireworks_in_deps or 'fireworks' in combined_text_lower)
+        together_in_deps = bool(together_in_deps or 'together.ai' in combined_text_lower or 'together ai' in combined_text_lower or 'together.xyz' in combined_text_lower)
+        modal_in_deps = bool(modal_in_deps or 'modal.com' in combined_text_lower or 'modal.run' in combined_text_lower or 'modal labs' in combined_text_lower or 'on modal' in combined_text_lower or 'via modal' in combined_text_lower)
         has_explicit_ptf = 'push the frontier' in combined_text_lower or 'push-the-frontier' in combined_text_lower
         has_explicit_bfyw = 'build for your world' in combined_text_lower or 'build-for-your-world' in combined_text_lower
         if has_explicit_ptf and not has_explicit_bfyw:
@@ -333,6 +340,11 @@ def rescore_all():
         elif has_explicit_bfyw and not has_explicit_ptf:
             track = 'Build for Your World'
         tree_lower = [x.lower() for x in (audit.get('tree_entries') or [])]
+        has_tests = bool(
+            has_tests
+            or any(k in tree_lower for k in ['test', 'tests', '__tests__', 'spec', 'specs', 'e2e', 'pytest.ini', 'conftest.py', 'tox.ini', 'vitest.config.ts', 'vitest.config.js', 'jest.config.ts', 'jest.config.js', 'playwright.config.ts'])
+            or any(k in readme_lower for k in ['pytest', 'vitest', 'cargo test', 'go test', 'npm test', 'pnpm test', 'yarn test', 'bun test', 'unittest'])
+        )
 
         # Reproducible setup instructions signal (Judges run projects from repo setup instructions / .env.example / Makefile / Docker)
         has_setup_guide = (
@@ -435,9 +447,20 @@ def rescore_all():
         if meta_model_families >= 3:
             meta_tooling += 0.2  # Multi-model pipeline (3+ distinct Meta models working together)
             meta_items.append(["3+ Meta model pipeline", "+0.2"])
-        if baseten_in_deps or fireworks_in_deps or together_in_deps:
+        partner_list = []
+        if baseten_in_deps:
+            partner_list.append("Baseten")
+        if fireworks_in_deps:
+            partner_list.append("Fireworks")
+        if modal_in_deps:
+            partner_list.append("Modal")
+        if together_in_deps:
+            partner_list.append("Together")
+        partner_infra_str = " / ".join(partner_list) if partner_list else "Direct"
+
+        if partner_list:
             meta_tooling += 0.2  # Official inference partner
-            meta_items.append(["Partner inference infra", "+0.2"])
+            meta_items.append([f"Partner inference ({partner_infra_str})", "+0.2"])
         # $10k Best Build on Meta Open-Weight Models (Muse Glimmer / Muse Spark Open / fine-tuned weights)
         if true_open_weights:
             meta_tooling += 0.5
@@ -555,7 +578,7 @@ def rescore_all():
             "has_src": has_src,
             "has_ci": has_ci,
             "meta_api_verified": meta_api_in_deps or readme_cites_meta_api,
-            "partner_infra": "Baseten" if baseten_in_deps else ("Fireworks" if fireworks_in_deps else ("Together" if together_in_deps else "Direct")),
+            "partner_infra": partner_infra_str,
             "open_weights_tuning": true_open_weights,
             "has_eval_benchmarks": has_eval_benchmarks,
             "has_setup_guide": has_setup_guide,

@@ -171,6 +171,25 @@ def format_video_cell(p):
     return link_html
 
 
+PARTNER_BADGE_SPECS = [
+    ("baseten", "Baseten", "baseten_in_deps"),
+    ("fireworks", "Fireworks", "fireworks_in_deps"),
+    ("modal", "Modal", "modal_in_deps"),
+    ("together", "Together", "together_in_deps"),
+]
+
+
+def format_partner_badges_py(full_name):
+    ra = raw_audit_map.get(full_name, {})
+    pills = []
+    for p_key, p_lbl, p_field in PARTNER_BADGE_SPECS:
+        if ra.get(p_field):
+            pills.append(
+                f'<button type="button" class="partner-tag pt-{p_key}" data-partner="{p_key}" title="Partner Inference: {p_lbl} (click to filter directory)">{p_lbl}</button>'
+            )
+    return f'<span class="partner-tags-wrap">{"".join(pills)}</span>' if pills else ''
+
+
 def build_initial_directory_rows(proj_list, limit=50):
     rows = []
     for p in proj_list[:limit]:
@@ -219,15 +238,14 @@ def build_initial_directory_rows(proj_list, limit=50):
 
         live_html = format_live_cell(p)
         vid_html = format_video_cell(p)
-        has_readme_sum = bool(p.get('readme_summary') or p.get('summary'))
-        tip_btn_html = f'<button type="button" class="readme-tip-btn" data-repo="{p["full_name"]}" aria-label="README summary for {p["full_name"]}">README</button>' if has_readme_sum else ''
+        partner_html = format_partner_badges_py(p['full_name'])
 
         rows.append(f"""
           <tr>
             <td class="col-rank"><span class="rank-num">{p['rank']}</span>{r_delta_html}</td>
             <td class="col-repo" data-repo="{p['full_name']}">
               <a href="{p['html_url']}" target="_blank" rel="noopener" class="repo-link"><span class="repo-owner">{owner}</span><span class="repo-name">{repo_name}</span></a>
-              {mr_html}{stars_html}{tip_btn_html}
+              {mr_html}{stars_html}{partner_html}
             </td>
             <td class="col-cat">
               <div class="cat-cell-wrap">
@@ -413,6 +431,10 @@ for p in projects_sorted:
                 ("glimmer", raw_audit_map.get(p["full_name"], {}).get("readme_cites_muse_glimmer")),
                 ("weights", p.get("open_weights_tuning")),
                 ("non_meta", raw_audit_map.get(p["full_name"], {}).get("competitor_in_deps")),
+                ("baseten", raw_audit_map.get(p["full_name"], {}).get("baseten_in_deps")),
+                ("fireworks", raw_audit_map.get(p["full_name"], {}).get("fireworks_in_deps")),
+                ("modal", raw_audit_map.get(p["full_name"], {}).get("modal_in_deps")),
+                ("together", raw_audit_map.get(p["full_name"], {}).get("together_in_deps")),
             ) if cond
         ],
     })
@@ -510,6 +532,18 @@ def build_timeseries_svg(points):
             f'<text x="{tx:.1f}" y="{h - 4}" fill="#839c95" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="{anchor}">{lbl}</text>'
         )
 
+    # Vertical dashed line marking Submission Deadline & Judging Start (Nov 5, 2026 02:00 UTC / Nov 4, 6:00 PM PST)
+    judging_ep = parse_iso_ts("2026-11-05T02:00:00Z")
+    judging_svg = ""
+    if t_min <= judging_ep <= t_max:
+        jx = pad_l + ((judging_ep - t_min) / t_span) * pw
+        judging_svg = f"""
+      <!-- Submission Freeze / Judging Started Marker -->
+      <g class="ts-judging-marker">
+        <title>Submission Freeze &amp; Judging Started — Nov 5, 2026 02:00 UTC (Nov 4, 6:00 PM PST)</title>
+        <line x1="{jx:.1f}" y1="{pad_t}" x2="{jx:.1f}" y2="{pad_t + ph}" stroke="#fb7185" stroke-width="1.6" stroke-dasharray="4,3" stroke-opacity="0.95"/>
+      </g>"""
+
     area_c = f"M {pad_l},{pad_t+ph} L " + " L ".join(c_coords) + f" L {pad_l+pw},{pad_t+ph} Z"
     line_c = "M " + " L ".join(c_coords)
     line_l = "M " + " L ".join(l_coords)
@@ -543,6 +577,7 @@ def build_timeseries_svg(points):
       <path d="{line_c}" fill="none" stroke="#4fdbc8" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
       <path d="{line_l}" fill="none" stroke="#818cf8" stroke-width="2" stroke-dasharray="4,3" stroke-linejoin="round"/>
       <path d="{line_v}" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      {judging_svg}
       {''.join(dots_svg)}
       {''.join(labels_svg)}
     </svg>
@@ -561,6 +596,15 @@ last_4h_repos = last_ts.get('total_repos', total_repos) - prev_ts.get('total_rep
 
 # Meta AI Model & Inference Stack Adoption (Interactive filter rows)
 project_names_set = {p['full_name'] for p in projects}
+baseten_cnt = sum(1 for fn in project_names_set if raw_audit_map.get(fn, {}).get('baseten_in_deps'))
+fireworks_cnt = sum(1 for fn in project_names_set if raw_audit_map.get(fn, {}).get('fireworks_in_deps'))
+modal_cnt = sum(1 for fn in project_names_set if raw_audit_map.get(fn, {}).get('modal_in_deps'))
+together_cnt = sum(1 for fn in project_names_set if raw_audit_map.get(fn, {}).get('together_in_deps'))
+partner_any_cnt = sum(
+    1 for fn in project_names_set
+    if any(raw_audit_map.get(fn, {}).get(k) for k in ('baseten_in_deps', 'fireworks_in_deps', 'modal_in_deps', 'together_in_deps'))
+)
+
 model_counts = [
     ("Muse Spark", "spark", sum(1 for fn in project_names_set if raw_audit_map.get(fn, {}).get('readme_cites_muse_spark')), "#4fdbc8"),
     ("Meta Model API (api.meta.ai)", "meta_api", sum(1 for fn in project_names_set if raw_audit_map.get(fn, {}).get('meta_api_in_deps') or raw_audit_map.get(fn, {}).get('readme_cites_meta_api')), "#2dd4bf"),
@@ -588,6 +632,34 @@ for m_label, m_key, m_cnt, m_col in model_counts:
         </div>
       </button>
     """)
+
+partner_overview_strip_html = f"""
+      <div class="partner-overview-box">
+        <div class="partner-overview-hdr">
+          <span>Partner Inference Infra</span>
+          <span class="muted">{partner_any_cnt} repos ({partner_any_cnt/total_repos*100:.1f}%) &middot; click to filter</span>
+        </div>
+        <div class="partner-overview-pills">
+          <button type="button" class="partner-ov-pill model-filter-row pt-baseten" data-model="baseten" title="Filter directory by Baseten ({baseten_cnt} repositories)">
+            <span class="po-name">Baseten</span>
+            <span class="po-cnt">{baseten_cnt}</span>
+          </button>
+          <button type="button" class="partner-ov-pill model-filter-row pt-fireworks" data-model="fireworks" title="Filter directory by Fireworks AI ({fireworks_cnt} repositories)">
+            <span class="po-name">Fireworks</span>
+            <span class="po-cnt">{fireworks_cnt}</span>
+          </button>
+          <button type="button" class="partner-ov-pill model-filter-row pt-modal" data-model="modal" title="Filter directory by Modal ({modal_cnt} repositories)">
+            <span class="po-name">Modal</span>
+            <span class="po-cnt">{modal_cnt}</span>
+          </button>
+          <button type="button" class="partner-ov-pill model-filter-row pt-together" data-model="together" title="Filter directory by Together AI ({together_cnt} repositories)">
+            <span class="po-name">Together</span>
+            <span class="po-cnt">{together_cnt}</span>
+          </button>
+        </div>
+      </div>
+"""
+model_bars_html.append(partner_overview_strip_html)
 
 # ==============================================================================
 # 1. PUBLIC COMMUNITY EDITION (Clean, Anti-Slop Engineering Directory)
@@ -1770,28 +1842,144 @@ public_html = f"""<!DOCTYPE html>
     cursor: help;
     white-space: nowrap;
   }}
-  .readme-tip-btn {{
+  .partner-tags-wrap {{
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }}
+  .partner-tag {{
     appearance: none;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     font-family: var(--font-mono);
     font-size: 9.5px;
     font-weight: 600;
-    letter-spacing: 0.03em;
-    color: var(--text-secondary);
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid var(--border-strong);
+    letter-spacing: 0.02em;
+    color: #94a3b8;
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(148, 163, 184, 0.22);
     padding: 1px 5px;
     border-radius: 3px;
-    margin-left: 6px;
-    vertical-align: middle;
     cursor: pointer;
     white-space: nowrap;
-    transition: color 0.12s, border-color 0.12s, background 0.12s;
+    opacity: 0.66;
+    transition: opacity 0.14s ease, color 0.14s ease, border-color 0.14s ease, background 0.14s ease, transform 0.12s ease;
   }}
-  .readme-tip-btn:hover, .readme-tip-btn:focus-visible, .col-repo:hover .readme-tip-btn {{
-    color: var(--accent);
-    border-color: rgba(79, 219, 200, 0.45);
-    background: rgba(79, 219, 200, 0.1);
+  tr:hover .partner-tag, .partner-tag:hover, .partner-tag:focus-visible, .partner-tag.active {{
+    opacity: 1;
+  }}
+  tr:hover .partner-tag.pt-baseten, .partner-tag.pt-baseten:hover, .partner-tag.pt-baseten.active {{
+    color: #34d399;
+    border-color: rgba(52, 211, 153, 0.45);
+    background: rgba(16, 185, 129, 0.12);
+  }}
+  tr:hover .partner-tag.pt-fireworks, .partner-tag.pt-fireworks:hover, .partner-tag.pt-fireworks.active {{
+    color: #fb923c;
+    border-color: rgba(251, 146, 60, 0.45);
+    background: rgba(249, 115, 22, 0.12);
+  }}
+  tr:hover .partner-tag.pt-modal, .partner-tag.pt-modal:hover, .partner-tag.pt-modal.active {{
+    color: #c084fc;
+    border-color: rgba(192, 132, 252, 0.45);
+    background: rgba(168, 85, 247, 0.12);
+  }}
+  tr:hover .partner-tag.pt-together, .partner-tag.pt-together:hover, .partner-tag.pt-together.active {{
+    color: #38bdf8;
+    border-color: rgba(56, 189, 248, 0.45);
+    background: rgba(14, 165, 233, 0.12);
+  }}
+  .partner-tag:hover {{
+    transform: translateY(-1px);
+  }}
+  .partner-overview-box {{
+    margin-top: 6px;
+    padding-top: 8px;
+    border-top: 1px dashed var(--border-strong);
+  }}
+  .partner-overview-hdr {{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+  }}
+  .partner-overview-pills {{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+  }}
+  .partner-ov-pill {{
+    appearance: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background: var(--surface-raised);
+    border: 1px solid var(--border-strong);
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    cursor: pointer;
+    transition: border-color 0.14s, background 0.14s, color 0.14s, transform 0.12s;
+  }}
+  .partner-ov-pill .po-name {{
+    font-weight: 600;
+    color: #e2e8f0;
+  }}
+  .partner-ov-pill .po-cnt {{
+    font-weight: 700;
+    font-size: 10px;
+  }}
+  .partner-ov-pill.pt-baseten .po-cnt {{ color: #34d399; }}
+  .partner-ov-pill.pt-fireworks .po-cnt {{ color: #fb923c; }}
+  .partner-ov-pill.pt-modal .po-cnt {{ color: #c084fc; }}
+  .partner-ov-pill.pt-together .po-cnt {{ color: #38bdf8; }}
+  .partner-ov-pill:hover, .partner-ov-pill.active {{
+    transform: translateY(-1px);
+  }}
+  .partner-ov-pill.pt-baseten:hover, .partner-ov-pill.pt-baseten.active {{
+    border-color: #34d399;
+    background: rgba(16, 185, 129, 0.12);
+  }}
+  .partner-ov-pill.pt-fireworks:hover, .partner-ov-pill.pt-fireworks.active {{
+    border-color: #fb923c;
+    background: rgba(249, 115, 22, 0.12);
+  }}
+  .partner-ov-pill.pt-modal:hover, .partner-ov-pill.pt-modal.active {{
+    border-color: #c084fc;
+    background: rgba(168, 85, 247, 0.12);
+  }}
+  .partner-ov-pill.pt-together:hover, .partner-ov-pill.pt-together.active {{
+    border-color: #38bdf8;
+    border-color: rgba(56, 189, 248, 0.85);
+    background: rgba(14, 165, 233, 0.12);
+  }}
+  .rt-tag.pt-baseten {{
+    color: #34d399;
+    border-color: rgba(52, 211, 153, 0.42);
+    background: rgba(16, 185, 129, 0.12);
+  }}
+  .rt-tag.pt-fireworks {{
+    color: #fb923c;
+    border-color: rgba(251, 146, 60, 0.42);
+    background: rgba(249, 115, 22, 0.12);
+  }}
+  .rt-tag.pt-modal {{
+    color: #c084fc;
+    border-color: rgba(192, 132, 252, 0.42);
+    background: rgba(168, 85, 247, 0.12);
+  }}
+  .rt-tag.pt-together {{
+    color: #38bdf8;
+    border-color: rgba(56, 189, 248, 0.42);
+    background: rgba(14, 165, 233, 0.12);
   }}
   #readme-floating-tooltip {{
     position: fixed;
@@ -2996,7 +3184,8 @@ public_html = f"""<!DOCTYPE html>
             <span style="color:#4fdbc8;">&#9679; Cumulative Commits<span class="hide-mobile"> (left axis)</span></span>
             <span style="display:inline-flex; gap:12px; align-items:center;">
               <span style="color:#818cf8;">&#9679; Live Apps</span>
-              <span style="color:#f59e0b;">&#9679; Video Demos<span class="hide-mobile"> (right axis)</span></span>
+              <span style="color:#f59e0b;">&#9679; Video Demos<span class="hide-mobile"> (right)</span></span>
+              <span style="color:#fb7185;" title="Submission deadline &amp; judging start: Nov 5, 2026 02:00 UTC (Nov 4, 6:00 PM PST)">&#9478; Judging Start</span>
             </span>
           </div>
           {timeseries_svg_html}
@@ -3179,7 +3368,7 @@ public_html = f"""<!DOCTYPE html>
             <li><span>Muse Spark reasoning integration (<code>muse-spark</code>)</span><span class="rubric-pts">+0.3</span></li>
             <li><span>Multimodal Meta models (<code>SAM 3.1</code>, <code>Muse Wonder</code>, <code>Muse Image</code>, <code>Muse Voice</code>)</span><span class="rubric-pts">+0.3</span></li>
             <li><span>Multi-model pipeline bonus (3+ distinct Meta model families combined)</span><span class="rubric-pts">+0.2</span></li>
-            <li><span>Official inference partner (Baseten, Fireworks, Together)</span><span class="rubric-pts">+0.2</span></li>
+            <li><span>Official inference partner (Baseten, Fireworks, Modal, Together &mdash; detected in deps, README, or <code>.env.example</code>)</span><span class="rubric-pts">+0.2</span></li>
             <li><span>Open-weights fine-tuning / distillation (<code>Muse Glimmer 30B</code> / <code>Muse Spark Open</code> / LoRA / QLoRA)</span><span class="rubric-pts">+0.5</span></li>
             <li><span>Published open-weight model/dataset on Hugging Face Hub</span><span class="rubric-pts">+0.3</span></li>
             <li><span>Non-Meta proprietary runtime SDKs with zero Meta models</span><span class="rubric-pts neg">&minus;0.6</span></li>
@@ -3434,12 +3623,19 @@ public_html = f"""<!DOCTYPE html>
     resetBtn.style.display = hasFilters ? 'inline-block' : 'none';
   }}
 
+  const partnerSpecList = [
+    ['baseten', 'Baseten'],
+    ['fireworks', 'Fireworks'],
+    ['modal', 'Modal'],
+    ['together', 'Together']
+  ];
+
   function render() {{
     syncUIControls();
     const q = state.query.toLowerCase();
 
     const filtered = projects.filter(p => {{
-      if (q && !p.n.toLowerCase().includes(q) && !p.c.toLowerCase().includes(q) && !(p.lr && p.lr.toLowerCase().includes(q)) && !(p.sm_txt && p.sm_txt.toLowerCase().includes(q)) && !(p.rs && p.rs.toLowerCase().includes(q))) return false;
+      if (q && !p.n.toLowerCase().includes(q) && !p.c.toLowerCase().includes(q) && !(p.lr && p.lr.toLowerCase().includes(q)) && !(p.sm_txt && p.sm_txt.toLowerCase().includes(q)) && !(p.rs && p.rs.toLowerCase().includes(q)) && !(p.ms && p.ms.some(m => m.includes(q)))) return false;
       if (state.track && p.t !== state.track) return false;
       if (state.category && p.c !== state.category) return false;
       if (state.model && !(p.ms && p.ms.includes(state.model))) return false;
@@ -3521,12 +3717,15 @@ public_html = f"""<!DOCTYPE html>
       if (p.rd > 0) rDelta = `<span class="rank-delta up" title="Moved up ${{p.rd}}">&#9650;${{p.rd}}</span>`;
       else if (p.rd < 0) rDelta = `<span class="rank-delta down" title="Moved down ${{Math.abs(p.rd)}}">&#9660;${{Math.abs(p.rd)}}</span>`;
 
-      const tipBtn = (p.rs || p.sm_txt) ? `<button type="button" class="readme-tip-btn" data-repo="${{p.n}}" aria-label="README summary for ${{p.n}}">README</button>` : '';
+      const pPills = (p.ms && p.ms.length)
+        ? partnerSpecList.filter(([k]) => p.ms.includes(k)).map(([k, lbl]) => `<button type="button" class="partner-tag pt-${{k}}${{state.model === k ? ' active' : ''}}" data-partner="${{k}}" title="Partner Inference: ${{lbl}} (click to filter directory)">${{lbl}}</button>`).join('')
+        : '';
+      const partnerHtml = pPills ? `<span class="partner-tags-wrap">${{pPills}}</span>` : '';
 
       return `<tr>
         <td class="col-rank"><span class="rank-num">${{p.r}}</span>${{rDelta}}</td>
         <td class="col-repo" data-repo="${{p.n}}">
-          <a href="${{p.u}}" target="_blank" rel="noopener" class="repo-link"><span class="repo-owner">${{owner}}</span><span class="repo-name">${{name}}</span></a>${{mrBadge}}${{stars}}${{tipBtn}}
+          <a href="${{p.u}}" target="_blank" rel="noopener" class="repo-link"><span class="repo-owner">${{owner}}</span><span class="repo-name">${{name}}</span></a>${{mrBadge}}${{stars}}${{partnerHtml}}
         </td>
         <td class="col-cat">
           <div class="cat-cell-wrap">${{trk}}<span class="cat-label">${{p.c}}</span></div>
@@ -3721,8 +3920,15 @@ public_html = f"""<!DOCTYPE html>
     const hook = p.sm_txt || '';
     const body = (p.rs && p.rs !== hook) ? p.rs : (p.rs || hook);
     const showHook = Boolean(hook && body && hook !== body);
-    const tagsHtml = (p.th && p.th.length)
-      ? `<div class="rt-tags">${{p.th.map(t => `<span class="rt-tag">${{escapeHtml(t)}}</span>`).join('')}}</div>`
+    const partnerTagsArr = (p.ms && p.ms.length)
+      ? partnerSpecList.filter(([k]) => p.ms.includes(k)).map(([k, lbl]) => `<span class="rt-tag pt-${{k}}">&#9889; ${{lbl}}</span>`)
+      : [];
+    const techTagsArr = (p.th && p.th.length)
+      ? p.th.map(t => `<span class="rt-tag">${{escapeHtml(t)}}</span>`)
+      : [];
+    const allTags = partnerTagsArr.concat(techTagsArr);
+    const tagsHtml = allTags.length
+      ? `<div class="rt-tags">${{allTags.join('')}}</div>`
       : '';
     const trkBadge = p.t === 'Track 2'
       ? '<span class="trk-tag t2">T2</span>'
@@ -4071,16 +4277,15 @@ public_html = f"""<!DOCTYPE html>
       }}
       return;
     }}
-    const btn = e.target.closest('.readme-tip-btn');
-    if (!btn) return;
-    e.preventDefault();
-    e.stopPropagation();
-    const repo = btn.dataset.repo;
-    const cell = btn.closest('.col-repo') || btn;
-    if (activeTipRepo === repo && activeTipMode === 'readme' && tooltipEl.classList.contains('visible')) {{
+    const partnerBtn = e.target.closest('.partner-tag[data-partner]');
+    if (partnerBtn) {{
+      e.preventDefault();
+      e.stopPropagation();
+      const pk = partnerBtn.dataset.partner;
+      state.model = state.model === pk ? '' : pk;
+      state.limit = 50;
       hideReadmeTooltip(true);
-    }} else {{
-      showReadmeTooltip(cell, repo);
+      render();
     }}
   }});
 
